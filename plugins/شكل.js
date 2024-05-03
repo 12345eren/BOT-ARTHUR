@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
-    if (!text) throw "*┃منشن الشخص الذي تريد معرفة ┃↞⎔ "
+    if (!text) throw "*┃منشن الشخص الذي تريد معرفة ┃↞⎔*"
     const mentionedUser = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : args[2] ? (args[2].replace(/[@ .+-]/g, '') + '@s.whatsapp.net') : ''
  const userChar = [
       "سيجما",
@@ -10,16 +10,16 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
       "حيوان",
      "سيمب",
      "قرد",
-     "كلب",
+     "ساحره",
      "ذبابه",
-     "ثور",
+     "اسطوره",
     "مقوت",
     "بلا عقل",
     "رجل ثلجي",
     "ذئب",
     "تيس",
-     "برميل",
-     "خنزير",   
+     "فخامه",
+     "مزه",   
      "بقرة",
      "حمار",
      "هكر",
